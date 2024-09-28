@@ -24,11 +24,11 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
-    perspectiveCamera: false
-    objectTracking: false
-    objectToAttach: false
-    baseDepthFactor: false
     applyRotation: false
+    baseDepthFactor: false
+    objectToAttach: false
+    objectTracking: false
+    perspectiveCamera: false
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
