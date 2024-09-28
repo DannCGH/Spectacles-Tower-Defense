@@ -1,0 +1,13 @@
+- !<AssetImportMetadata/46d0cf9b-2df2-47ee-ab21-9b98c37e1fdd>
+  ImportedAssetIds:
+    {}
+  ImporterName: ""
+  PrimaryAsset: !<reference> 00000000-0000-0000-0000-000000000000
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<own> 00000000-0000-0000-0000-000000000000
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

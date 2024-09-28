@@ -1,0 +1,14 @@
+- !<AssetImportMetadata/50544869-78df-41bc-a632-362dd9cd0188>
+  ImportedAssetIds:
+    BinAsset: !<reference> 2b3fee62-092b-4e40-8793-e09c3c547ff8
+  ImporterName: BinAssetImporter
+  PrimaryAsset: !<reference> 2b3fee62-092b-4e40-8793-e09c3c547ff8
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/cde1eac9-590e-409c-a069-b64ff38dfa03>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
