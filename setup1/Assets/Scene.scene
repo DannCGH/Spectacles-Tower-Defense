@@ -684,7 +684,7 @@
   PrefabRemaps:
     []
   Name: Object Tracker
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -1608,7 +1608,7 @@
     - fe69d5fb-8d4f-4697-ab81-2faea6604987: 4feff48c-3395-4553-b3a6-8cd5e6ad40e2
     - ff436664-dc0e-4aca-bb84-165c4b46ff6d: 1614d527-7a78-427a-8e6f-0af5408f3641
   Name: WaypointTweenExamples__PLACE_IN_OBJECTS_PANEL
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 1.992508}
@@ -4188,7 +4188,7 @@
     - ffab42e8-a2aa-4874-b96e-e685694d4ab7: e8c009db-90f8-4555-8449-0ee1a350eb75
     - ffe425e3-557d-4e1d-824c-e5f378f4a39e: e3ec5982-f5aa-45f3-baae-b2c56d5e0bcd
   Name: SpectaclesInteractionKit
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: -17.788183, y: 0.000000, z: -19.869610}
@@ -6206,7 +6206,7 @@
   PrefabRemaps:
     []
   Name: Box
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -6495,7 +6495,7 @@
     - d754b750-5d2f-4b25-8016-d8cf6450cabd: 1aa91a99-be07-4f39-892b-e074b292471a
     - fc3bd3bf-2cd7-4b1c-9cd1-d52618c2b6a3: bc27dce5-e444-4ff9-b5d7-ac1bedd36301
   Name: Spawner
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 14.055470, z: 1.992508}
@@ -6656,7 +6656,7 @@
   PrefabRemaps:
     []
   Name: Spawnpoint
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -6713,6 +6713,22 @@
     []
   Components:
     []
+- !<ScriptComponent/a69cb6e5-cb99-4c87-9ad9-6ac22cf44656>
+  PrefabRemaps:
+    []
+  Name: Untitled JavaScript
+  Enabled: true
+  ScriptAsset: !<reference> 65199cbb-ef66-48cf-9c88-7027245b6c26
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/a762d926-e47e-4322-9d1d-1e20f558821f>
   PrefabRemaps:
     []
@@ -7344,7 +7360,7 @@
   PrefabRemaps:
     []
   Name: Base
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: -20.000000, z: -30.000000}
@@ -8534,6 +8550,23 @@
   ScriptTypes:
     "":
       {}
+- !<ScriptComponent/db056228-40b9-4f0f-92f6-cac27bc5287f>
+  PrefabRemaps:
+    []
+  Name: DistanceDetection
+  Enabled: true
+  ScriptAsset: !<reference> f3fa2b12-0a1f-4f31-8096-e8192faf441a
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      parentObject: !<reference.SceneObject> e416ce8c-d542-4bcb-b0b7-3477208f7561
+      childObject: !<reference.SceneObject> e10d1d1c-ead6-4592-8115-e238a3800f97
+  ScriptTypes:
+    "":
+      {}
 - !<ScriptComponent/db2a3112-01e9-4782-b1aa-c1f6305374e2>
   PrefabRemaps:
     []
@@ -8687,7 +8720,7 @@
     - a1d26e17-852f-4f44-8393-1613d19e9d81: f6ef83ed-c0fb-42ba-8a8a-65805401f69f
     - e10d1d1c-ead6-4592-8115-e238a3800f97: 44fac6a3-5e05-47cb-a3a9-d47eb9c5ce76
   Name: Move
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 28.110939, z: 0.000000}
@@ -8872,6 +8905,8 @@
     - !<own> 9dff3f04-7006-417b-91bd-86067674c8c9
     - !<own> 4fe00410-0925-4497-bec1-7b8272995368
     - !<own> b644406f-e105-4f28-a364-02db1b4478bb
+    - !<own> a69cb6e5-cb99-4c87-9ad9-6ac22cf44656
+    - !<own> db056228-40b9-4f0f-92f6-cac27bc5287f
 - !<DeviceTracking/e5553c8a-0b7e-4ef4-92d9-3e1318fb82c1>
   PrefabRemaps:
     []
