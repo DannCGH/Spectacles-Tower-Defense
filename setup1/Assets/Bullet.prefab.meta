@@ -1,0 +1,60 @@
+- !<AssetImportMetadata/daecf25d-a11b-44dc-af15-9cfc3170a996>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 2572f442-7687-4c3a-bc89-5d4089a13c91
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 2572f442-7687-4c3a-bc89-5d4089a13c91
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> 605b68e3-389d-49cc-8dc5-5539707092fb
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/9f474b43-f23f-4501-926b-87a8eaafc84d>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/605b68e3-389d-49cc-8dc5-5539707092fb>
+  SourceRemaps:
+    - 543f437d-7667-4f0e-88c1-73ebbc2f4b85: c9ed9b5f-1ebe-44c5-a690-82e114d30262
+    - 96acb4e6-68c4-4daa-9c47-ad412a6d7518: a7f4510d-2fac-4068-bf25-f01884fdda92
+  SourceState: !<own> f3c0bfd3-b521-444d-b43c-cd7f60769ed0
+- !<SceneObject/a7f4510d-2fac-4068-bf25-f01884fdda92>
+  PrefabRemaps:
+    []
+  Name: Bullet
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 1.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 0.500000, y: 0.500000, z: 0.500000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c9ed9b5f-1ebe-44c5-a690-82e114d30262
+- !<RenderMeshVisual/c9ed9b5f-1ebe-44c5-a690-82e114d30262>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 32b0db5b-e652-4f4e-bfb8-e4a237d3f76b
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefab/f3c0bfd3-b521-444d-b43c-cd7f60769ed0>
+  PackagePath: ""
+  objects:
+    - !<own> a7f4510d-2fac-4068-bf25-f01884fdda92
+  LazyLoading: false
+  RetainAssets: true
