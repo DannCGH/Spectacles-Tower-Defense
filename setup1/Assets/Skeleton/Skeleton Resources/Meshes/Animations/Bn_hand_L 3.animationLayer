@@ -1,0 +1,19 @@
+- !<AnimationLayer/7dbf851a-31aa-41d9-af70-f5af5bf97f05>
+  PackagePath: ""
+  BlendMode: Default
+  ScaleMode: Multiply
+  Positions:
+    []
+  Rotations:
+    []
+  Scales:
+    []
+  VertexCacheAnimations:
+    []
+  Visibilities:
+    - time: 0.000000
+      value: 1
+    - time: 3.000000
+      value: 1
+  BlendShapeAnimations:
+    {}

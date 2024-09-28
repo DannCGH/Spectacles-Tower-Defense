@@ -4,6 +4,8 @@
     - !<own> 00000000-0000-0065-0000-000000000064
     - !<own> 0005641c-028d-459a-0000-000000014b4d
     - !<own> 597f6fa4-23e5-4230-9e74-1ece142cd000
+    - !<own> a5bea07d-96af-488c-a703-c54062b76021
+    - !<own> c1c3e730-dced-432f-88f8-c220602cdde5
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       []
@@ -5620,6 +5622,23 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<ScriptComponent/95d9039d-dfe0-4a83-97e4-454c2d095a40>
+  PrefabRemaps:
+    []
+  Name: SpawnTest
+  Enabled: true
+  ScriptAsset: !<reference> 1b96c2e8-5b3c-44cb-ac71-ebc7f25fa33a
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      objectPrefab: !<reference.ObjectPrefab> 41666117-d9f2-475c-96f1-44e7cbfc3edf
+      parentObject: !<reference.SceneObject> c1c3e730-dced-432f-88f8-c220602cdde5
+  ScriptTypes:
+    "":
+      {}
 - !<ScriptComponent/95e05ccb-2311-43d1-8294-c68ea94fb5f0>
   PrefabRemaps:
     []
@@ -5650,7 +5669,7 @@
     []
   Name: Screen Transform
   Enabled: true
-  IsAdvanced: false
+  IsAdvanced: true
   Constraints:
     pinToLeft: false
     pinToTop: false
@@ -5947,6 +5966,24 @@
   Components:
     - !<own> acbcbff6-eecf-4ebe-9fd5-91e7811fe8ca
     - !<own> fe4ee68b-14f6-482b-984b-ab140636ed94
+- !<SceneObject/a5bea07d-96af-488c-a703-c54062b76021>
+  PrefabRemaps:
+    - 95d9039d-dfe0-4a83-97e4-454c2d095a40: 796d84f6-de19-4d36-b979-4f09356d7cee
+    - a5bea07d-96af-488c-a703-c54062b76021: 883f7e3a-2564-4358-ba1a-83caa9865fa1
+    - e71f4718-f07f-4dc4-9e48-f38f8507542e: 614e0af4-05bd-421c-9752-c1c3907fee32
+  Name: button!
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: -10.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e71f4718-f07f-4dc4-9e48-f38f8507542e
+    - !<own> 95d9039d-dfe0-4a83-97e4-454c2d095a40
 - !<SceneObject/a677b29a-6a93-490a-8df1-19b2ca301293>
   PrefabRemaps:
     []
@@ -6811,6 +6848,21 @@
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 0cd8437a-4434-4f76-9b5b-861970e726e9
+  Components:
+    []
+- !<SceneObject/c1c3e730-dced-432f-88f8-c220602cdde5>
+  PrefabRemaps:
+    []
+  Name: where little guy is!
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 50.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
   Components:
     []
 - !<SceneObject/c237a99e-09e5-427f-b8bb-985422c22777>
@@ -7876,6 +7928,26 @@
     - !<own> 6782f3ef-7209-498a-bd1f-faa1b9c8259e
   Components:
     - !<own> 4e9e9b21-f4d8-45d4-b679-f13bfca2a719
+- !<RenderMeshVisual/e71f4718-f07f-4dc4-9e48-f38f8507542e>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    []
+  Mesh: !<reference> 85224269-5086-40e2-9a6f-71a8a3397ced
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
 - !<SceneObject/e743c9bb-f45d-40d6-b7b0-40f7af3a9e18>
   PrefabRemaps:
     []
