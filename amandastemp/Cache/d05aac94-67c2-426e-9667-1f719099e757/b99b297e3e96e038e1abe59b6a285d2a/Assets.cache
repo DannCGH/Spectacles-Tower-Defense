@@ -1,0 +1,18 @@
+- !<AssetCache/b99b297e-3e96-e038-e1ab-e59b6a285d2a>
+  AssetFiles:
+    3b86289a-3408-4a79-a01c-11ed5f124659: d05aac94-67c2-426e-9667-1f719099e757/b99b297e3e96e038e1abe59b6a285d2a/Data/sit.mesh
+  AssetCurrentFiles:
+    3b86289a-3408-4a79-a01c-11ed5f124659: d05aac94-67c2-426e-9667-1f719099e757/b99b297e3e96e038e1abe59b6a285d2a/Data/sit.mesh
+  Assets:
+    - !<FileMesh/3b86289a-3408-4a79-a01c-11ed5f124659>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 184
+        Vertices: 201
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: b99b297e3e96e038e1abe59b6a285d2a
+  FileHash: f260e4cb2475e5f1716f26c6406c9447
+  NativePackageItems:
+    []

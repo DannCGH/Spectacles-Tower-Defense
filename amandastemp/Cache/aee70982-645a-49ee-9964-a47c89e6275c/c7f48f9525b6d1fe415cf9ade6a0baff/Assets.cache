@@ -1,0 +1,18 @@
+- !<AssetCache/c7f48f95-25b6-d1fe-415c-f9ade6a0baff>
+  AssetFiles:
+    7109a8d1-3f2f-46f4-beb0-f0635ef85529: aee70982-645a-49ee-9964-a47c89e6275c/c7f48f9525b6d1fe415cf9ade6a0baff/Data/eyes.mesh
+  AssetCurrentFiles:
+    7109a8d1-3f2f-46f4-beb0-f0635ef85529: aee70982-645a-49ee-9964-a47c89e6275c/c7f48f9525b6d1fe415cf9ade6a0baff/Data/eyes.mesh
+  Assets:
+    - !<FileMesh/7109a8d1-3f2f-46f4-beb0-f0635ef85529>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 32
+        Vertices: 34
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: c7f48f9525b6d1fe415cf9ade6a0baff
+  FileHash: ce7ba9cdcb1c36056e3c78fb94ac36f3
+  NativePackageItems:
+    []

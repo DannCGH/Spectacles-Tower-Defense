@@ -1,0 +1,15 @@
+- !<AssetCache/cc7271cc-5c8a-1bb1-3f56-1e56b5d37a9f>
+  AssetFiles:
+    fe4203a5-42de-4ca3-bd8e-470278a1a8d2: 23dce675-c744-45ca-b6d4-d303480fc321/cc7271cc5c8a1bb13f561e56b5d37a9f/Data/Tree_base.png
+  AssetCurrentFiles:
+    fe4203a5-42de-4ca3-bd8e-470278a1a8d2: 23dce675-c744-45ca-b6d4-d303480fc321/cc7271cc5c8a1bb13f561e56b5d37a9f/Data/Tree_base.png
+  Assets:
+    - !<FileTexture/fe4203a5-42de-4ca3-bd8e-470278a1a8d2>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1024
+        Height: 1024
+  SourceHash: cc7271cc5c8a1bb13f561e56b5d37a9f
+  FileHash: 6bd4daa3ea6c82d87ac20317db950468
+  NativePackageItems:
+    []

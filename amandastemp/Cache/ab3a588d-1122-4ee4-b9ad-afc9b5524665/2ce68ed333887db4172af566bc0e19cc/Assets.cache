@@ -1,0 +1,15 @@
+- !<AssetCache/2ce68ed3-3388-7db4-172a-f566bc0e19cc>
+  AssetFiles:
+    35b2684a-2000-45d8-b71b-4a265e676d8a: ab3a588d-1122-4ee4-b9ad-afc9b5524665/2ce68ed333887db4172af566bc0e19cc/Data/house_normal.png
+  AssetCurrentFiles:
+    35b2684a-2000-45d8-b71b-4a265e676d8a: ab3a588d-1122-4ee4-b9ad-afc9b5524665/2ce68ed333887db4172af566bc0e19cc/Data/house_normal.png
+  Assets:
+    - !<FileTexture/35b2684a-2000-45d8-b71b-4a265e676d8a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1024
+        Height: 1024
+  SourceHash: 2ce68ed333887db4172af566bc0e19cc
+  FileHash: f92fc9b7fda146c2879665996da32661
+  NativePackageItems:
+    []

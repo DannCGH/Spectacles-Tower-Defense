@@ -1,0 +1,15 @@
+- !<AssetCache/7860d4bb-c3aa-b07e-b410-dd4533146cf4>
+  AssetFiles:
+    737784c7-550b-4f88-b39c-d8f68a4024fe: 4ad20ba8-6649-4a4f-83fd-9f514636a58d/7860d4bbc3aab07eb410dd4533146cf4/Data/cloud_params.png
+  AssetCurrentFiles:
+    737784c7-550b-4f88-b39c-d8f68a4024fe: 4ad20ba8-6649-4a4f-83fd-9f514636a58d/7860d4bbc3aab07eb410dd4533146cf4/Data/cloud_params.png
+  Assets:
+    - !<FileTexture/737784c7-550b-4f88-b39c-d8f68a4024fe>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1024
+        Height: 1024
+  SourceHash: 7860d4bbc3aab07eb410dd4533146cf4
+  FileHash: 0f7a6708612955f212cb3452529dafbd
+  NativePackageItems:
+    []

@@ -1,0 +1,15 @@
+- !<AssetCache/7b02505e-d199-1124-1307-d698ece4525e>
+  AssetFiles:
+    30f15d14-831b-4e1c-bafe-7f440bccfc08: 1bc51d80-f477-435e-98ee-5e4e9f875802/7b02505ed19911241307d698ece4525e/Data/statue_base.png
+  AssetCurrentFiles:
+    30f15d14-831b-4e1c-bafe-7f440bccfc08: 1bc51d80-f477-435e-98ee-5e4e9f875802/7b02505ed19911241307d698ece4525e/Data/statue_base.png
+  Assets:
+    - !<FileTexture/30f15d14-831b-4e1c-bafe-7f440bccfc08>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1024
+        Height: 1024
+  SourceHash: 7b02505ed19911241307d698ece4525e
+  FileHash: 59d8402005cfd3bf9a757de42028f964
+  NativePackageItems:
+    []

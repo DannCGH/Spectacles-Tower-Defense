@@ -1,0 +1,18 @@
+- !<AssetCache/9334940b-ebb2-7ee9-0205-c8ab44668c38>
+  AssetFiles:
+    0baf40f2-9bd4-44d1-8cd4-a08ac2edcf47: 7ad6760e-c69d-49ef-a685-86af2f9f73a0/9334940bebb27ee90205c8ab44668c38/Data/mouth_open.mesh
+  AssetCurrentFiles:
+    0baf40f2-9bd4-44d1-8cd4-a08ac2edcf47: 7ad6760e-c69d-49ef-a685-86af2f9f73a0/9334940bebb27ee90205c8ab44668c38/Data/mouth_open.mesh
+  Assets:
+    - !<FileMesh/0baf40f2-9bd4-44d1-8cd4-a08ac2edcf47>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 176
+        Vertices: 119
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: 9334940bebb27ee90205c8ab44668c38
+  FileHash: d4b6fcdb69fbe65df03e5c12a5a92774
+  NativePackageItems:
+    []

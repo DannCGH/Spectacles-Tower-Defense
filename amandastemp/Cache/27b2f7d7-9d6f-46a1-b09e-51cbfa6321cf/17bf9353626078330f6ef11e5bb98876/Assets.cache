@@ -1,0 +1,18 @@
+- !<AssetCache/17bf9353-6260-7833-0f6e-f11e5bb98876>
+  AssetFiles:
+    2dc61a35-e6cf-4f05-9460-04dfe08309be: 27b2f7d7-9d6f-46a1-b09e-51cbfa6321cf/17bf9353626078330f6ef11e5bb98876/Data/statue.mesh
+  AssetCurrentFiles:
+    2dc61a35-e6cf-4f05-9460-04dfe08309be: 27b2f7d7-9d6f-46a1-b09e-51cbfa6321cf/17bf9353626078330f6ef11e5bb98876/Data/statue.mesh
+  Assets:
+    - !<FileMesh/2dc61a35-e6cf-4f05-9460-04dfe08309be>
+      PackagePath: ""
+      Info: !<MeshInfo/00000000-0000-0000-0000-000000000000>
+        Triangles: 606
+        Vertices: 399
+        Blendshapes:
+          []
+        Joints: 0
+  SourceHash: 17bf9353626078330f6ef11e5bb98876
+  FileHash: 24feec79ce9a30128cddad5c26a6c4f0
+  NativePackageItems:
+    []

@@ -1,0 +1,15 @@
+- !<AssetCache/19569f06-c370-7dca-4cba-f7e1a5f2f5d2>
+  AssetFiles:
+    87cb8275-9eca-4ff9-ae0c-5abb4db13604: 48880445-ff43-45ec-afb0-09e6a4a7bc0c/19569f06c3707dca4cbaf7e1a5f2f5d2/Data/cloud_normal.png
+  AssetCurrentFiles:
+    87cb8275-9eca-4ff9-ae0c-5abb4db13604: 48880445-ff43-45ec-afb0-09e6a4a7bc0c/19569f06c3707dca4cbaf7e1a5f2f5d2/Data/cloud_normal.png
+  Assets:
+    - !<FileTexture/87cb8275-9eca-4ff9-ae0c-5abb4db13604>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1024
+        Height: 1024
+  SourceHash: 19569f06c3707dca4cbaf7e1a5f2f5d2
+  FileHash: 6638c303c80f4de41b856d75d331d6db
+  NativePackageItems:
+    []

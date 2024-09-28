@@ -1,0 +1,15 @@
+- !<AssetCache/a38da4ad-d267-e527-eb2e-551e1c3cd67b>
+  AssetFiles:
+    4c0f7fd8-cebb-4b07-93b9-5d63390d37fe: 77530e7c-ee61-4967-8208-e92540e6b7b0/a38da4add267e527eb2e551e1c3cd67b/Data/cloud_base.png
+  AssetCurrentFiles:
+    4c0f7fd8-cebb-4b07-93b9-5d63390d37fe: 77530e7c-ee61-4967-8208-e92540e6b7b0/a38da4add267e527eb2e551e1c3cd67b/Data/cloud_base.png
+  Assets:
+    - !<FileTexture/4c0f7fd8-cebb-4b07-93b9-5d63390d37fe>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1024
+        Height: 1024
+  SourceHash: a38da4add267e527eb2e551e1c3cd67b
+  FileHash: 13bc04b701331988a6128cadc43ae893
+  NativePackageItems:
+    []

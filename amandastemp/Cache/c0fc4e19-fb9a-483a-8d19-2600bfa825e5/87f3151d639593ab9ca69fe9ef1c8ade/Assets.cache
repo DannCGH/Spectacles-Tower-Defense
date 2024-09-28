@@ -1,0 +1,15 @@
+- !<AssetCache/87f3151d-6395-93ab-9ca6-9fe9ef1c8ade>
+  AssetFiles:
+    d93d4f3d-e26f-49c6-a85c-19599bee935e: c0fc4e19-fb9a-483a-8d19-2600bfa825e5/87f3151d639593ab9ca69fe9ef1c8ade/Data/house_base.png
+  AssetCurrentFiles:
+    d93d4f3d-e26f-49c6-a85c-19599bee935e: c0fc4e19-fb9a-483a-8d19-2600bfa825e5/87f3151d639593ab9ca69fe9ef1c8ade/Data/house_base.png
+  Assets:
+    - !<FileTexture/d93d4f3d-e26f-49c6-a85c-19599bee935e>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 1024
+        Height: 1024
+  SourceHash: 87f3151d639593ab9ca69fe9ef1c8ade
+  FileHash: b5c1e5dd7da6dc316f8538775a5b8774
+  NativePackageItems:
+    []
