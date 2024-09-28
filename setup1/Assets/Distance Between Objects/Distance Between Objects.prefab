@@ -1,0 +1,185 @@
+- !<ObjectPrefab/a9a65f8a-2680-4e98-9cc3-0733f4db408d>
+  PackagePath: ""
+  objects:
+    - !<own> f09aafd2-a95b-4703-9d8a-0ae9d5815356
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/24895b8f-c492-4081-95e9-00044110e68b>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ca6b99e0-5fe0-4115-a25f-3800a2cf7a0b
+  Mesh: !<reference> 01aa2f5c-1307-45ba-834a-522037564104
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings/00000000-0000-0000-0000-000000000000>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: true
+        roughHarden: 0.500000
+        roughCurve: 2.000000
+    IndirectDiffuse:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    AmbientOcclusion:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
+- !<SceneObject/397a971e-56cb-442e-9f30-c73135d785d9>
+  PrefabRemaps:
+    []
+  Name: Sphere
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -10.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 24895b8f-c492-4081-95e9-00044110e68b
+- !<RenderMeshVisual/48674520-ad14-4de2-8fc1-970c04ac07fd>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ca6b99e0-5fe0-4115-a25f-3800a2cf7a0b
+  Mesh: !<reference> 01aa2f5c-1307-45ba-834a-522037564104
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+  RayTracing: !<RayTracingVisualSettings/00000000-0000-0000-0000-000000000000>
+    Reflections:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+      planar:
+        enabled: true
+        roughHarden: 0.500000
+        roughCurve: 2.000000
+    IndirectDiffuse:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    AmbientOcclusion:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Shadows:
+      caster: false
+      receiver: false
+      receiverLayers: 1
+    Material: !<reference> 00000000-0000-0000-0000-000000000000
+    HideFromCamera: false
+- !<ScriptComponent/5d5e5558-f15c-42be-b5db-eba476239167>
+  PrefabRemaps:
+    []
+  Name: DistanceBetweenObjects
+  Enabled: true
+  ScriptAsset: !<reference> 44899f6a-b08b-470a-a076-0adc41faeb98
+  ScriptInputsDefault:
+    multiplyPositions: true
+    multiplier: true
+    mapDistance: true
+    minDistance: true
+    mappedMin: true
+    mappedMax: true
+    printMapDist: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      objectA: !<reference.SceneObject> 397a971e-56cb-442e-9f30-c73135d785d9
+      objectB: !<reference.SceneObject> ad9edbd4-512e-4acb-884c-5f9378298be7
+      printDistance: true
+      multiplyPositions: false
+      multiplier: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      mapDistance: false
+      minDistance: !<float> 0.000000
+      maxDistance: !<float> 20.000000
+      mappedMin: !<float> 0.000000
+      mappedMax: !<float> 1.000000
+      printMapDist: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/9d180db6-7603-47ff-9d90-ef5186cf24ca>
+  PrefabRemaps:
+    []
+  Name: "Example Objects [DELETE_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 397a971e-56cb-442e-9f30-c73135d785d9
+    - !<own> ad9edbd4-512e-4acb-884c-5f9378298be7
+  Components:
+    []
+- !<SceneObject/ad9edbd4-512e-4acb-884c-5f9378298be7>
+  PrefabRemaps:
+    []
+  Name: Sphere 2
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 10.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 48674520-ad14-4de2-8fc1-970c04ac07fd
+- !<SceneObject/f09aafd2-a95b-4703-9d8a-0ae9d5815356>
+  PrefabRemaps:
+    []
+  Name: Distance Between Objects
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9d180db6-7603-47ff-9d90-ef5186cf24ca
+  Components:
+    - !<own> 5d5e5558-f15c-42be-b5db-eba476239167
