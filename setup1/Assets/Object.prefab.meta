@@ -1,0 +1,98 @@
+- !<AssetImportMetadata/1b8d2988-74c2-4348-bbf2-be7408976c14>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 451179cb-f04c-4b42-8046-2e5c82430138
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 451179cb-f04c-4b42-8046-2e5c82430138
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> 62c4cd0d-8634-4bde-bf57-7c873aceae7d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/fb36597b-652e-4a79-9bd6-25bf471ae032>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/324cbde6-d0fc-415d-8d0c-6f6c556383e2>
+  PrefabRemaps:
+    []
+  Name: Object Tracker
+  Enabled: false
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a0368026-9031-49c2-b1af-f857dd8a2164
+- !<ScriptComponent/38160afe-a393-4a90-95ea-8a5370a6c37e>
+  PrefabRemaps:
+    []
+  Name: AttachToObjectTracking
+  Enabled: true
+  ScriptAsset: !<reference> d5f583aa-ace1-4210-8f7b-c74dfebd30ad
+  ScriptInputsDefault:
+    objectTracking: true
+    objectToAttach: true
+    baseDepthFactor: true
+    applyRotation: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      perspectiveCamera: !<reference.Camera> 00000000-0000-0065-0000-000000000065
+      objectTracking: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      objectToAttach: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      baseDepthFactor: !<float> 250.000000
+      applyRotation: true
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefab/546bcabf-c6e3-4f4f-bb45-96bf0da1afac>
+  PackagePath: ""
+  objects:
+    - !<own> 64fefbf8-f46c-4f62-9e4b-1c924ffb84c7
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/62c4cd0d-8634-4bde-bf57-7c873aceae7d>
+  SourceRemaps:
+    - 038370aa-5af0-465e-80b1-0dc9638034ac: 324cbde6-d0fc-415d-8d0c-6f6c556383e2
+    - 3ecd5365-2b7a-4514-a2eb-1c1595b3b6cc: a0368026-9031-49c2-b1af-f857dd8a2164
+    - 63229166-84da-47ce-9daf-6d8dab1ea47c: 64fefbf8-f46c-4f62-9e4b-1c924ffb84c7
+    - 94c174a3-09ef-4281-a37d-c24b63a0a94a: 38160afe-a393-4a90-95ea-8a5370a6c37e
+  SourceState: !<own> 546bcabf-c6e3-4f4f-bb45-96bf0da1afac
+- !<SceneObject/64fefbf8-f46c-4f62-9e4b-1c924ffb84c7>
+  PrefabRemaps:
+    []
+  Name: Object
+  Enabled: false
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 324cbde6-d0fc-415d-8d0c-6f6c556383e2
+  Components:
+    - !<own> 38160afe-a393-4a90-95ea-8a5370a6c37e
+- !<ScriptComponent/a0368026-9031-49c2-b1af-f857dd8a2164>
+  PrefabRemaps:
+    []
+  Name: Object Tracker
+  Enabled: true
+  ScriptAsset: !<reference> 25f1f860-b92a-4a36-a822-cd01900525dd
+  ScriptInputsDefault:
+    objectTracking: true
+    objectToAttach: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      objectTracking: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      objectToAttach: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
