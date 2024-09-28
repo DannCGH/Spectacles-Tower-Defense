@@ -6925,6 +6925,21 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/ba4a7b24-ddc8-475e-9319-673aa27c522a>
+  PrefabRemaps:
+    []
+  Name: Bullet Spawner
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.535718, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    []
 - !<ScriptComponent/bad2a685-012c-4f96-bed9-fef0d5868599>
   PrefabRemaps:
     []
@@ -8268,12 +8283,12 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: -14.076847, y: 0.000000, z: -12.302290}
+    position: {x: -15.786092, y: -0.211671, z: -12.302290}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 5.000000, y: 5.000000, z: 5.000000}
     hasSegmentScaleCompensation: false
   Children:
-    []
+    - !<own> ba4a7b24-ddc8-475e-9319-673aa27c522a
   Components:
     - !<own> abba76e4-c848-48fd-ad95-4700ca9f5ef4
     - !<own> 4e86a588-7791-44d6-a7a0-0b924e53e171
