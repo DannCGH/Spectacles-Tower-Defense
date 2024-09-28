@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/ee9bb81f-e033-4104-9bd0-d3b5033d5647>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> d5f583aa-ace1-4210-8f7b-c74dfebd30ad
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> d5f583aa-ace1-4210-8f7b-c74dfebd30ad
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> c586a349-8af9-4915-82ef-ea89cef88b60
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/7493db5e-b3a4-465d-9c81-3edb69a5d5f2>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/c586a349-8af9-4915-82ef-ea89cef88b60>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    applyRotation: false
+    baseDepthFactor: false
+    objectToAttach: false
+    objectTracking: false
+    perspectiveCamera: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - perspectiveCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      objectTracking: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      objectToAttach: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      baseDepthFactor: !<float> 250.000000
+      applyRotation: true
+  ScriptTypes:
+    -
+      {}

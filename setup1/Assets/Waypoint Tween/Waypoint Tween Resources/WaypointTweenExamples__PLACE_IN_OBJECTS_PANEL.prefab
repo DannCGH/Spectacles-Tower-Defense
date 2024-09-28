@@ -1,0 +1,739 @@
+- !<ObjectPrefab/4932c8e4-6d76-4f74-9c7f-cf2bda2b8b16>
+  PackagePath: ""
+  objects:
+    - !<own> cff712ba-208d-44a9-890e-ef79d11cc355
+  LazyLoading: false
+  RetainAssets: true
+- !<ScriptComponent/047ba675-f3a4-4372-94a6-5d9b455783c6>
+  PrefabRemaps:
+    []
+  Name: TweenManager
+  Enabled: true
+  ScriptAsset: !<reference> 13f786f2-a90b-4391-a8f7-a669fb101677
+  ScriptInputsDefault:
+    printDebugLog: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      printDebugLog: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/085edadf-127d-4454-973d-101931e69181>
+  PrefabRemaps:
+    []
+  Name: Waypoint 2
+  Enabled: true
+  Layers: 131072
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: -150.430801, y: 36.022007, z: 9.658923}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ece17982-15fb-43e5-b716-32492822f3d7
+- !<ScriptComponent/0a3aa0ab-25fe-4f7b-a50a-cba0890577dc>
+  PrefabRemaps:
+    []
+  Name: TweenWaypoint
+  Enabled: true
+  ScriptAsset: !<reference> 9829fa7a-7faf-4e66-b3aa-3e339fa50376
+  ScriptInputsDefault:
+    sceneObjectReference: true
+    tweenName: true
+    playAutomatically: true
+    constantUpdate: true
+    time: true
+    delay: true
+    isLocal: true
+    easingFunction: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tweenName: ""
+      playAutomatically: true
+      loopType: 1
+      type: 1
+      constantUpdate: true
+      waypoints: !<reference.SceneObject[]>
+        - !<reference> 20805ec0-1e94-4d84-bc62-a6d9cdd8f93b
+        - !<reference> b3d261a8-0f9b-4e2d-bf17-d6f5666ffdbd
+        - !<reference> 2d4513c1-cbe4-4bdf-a63b-2874dc01823b
+      constantTime: false
+      time: !<float> 1.000000
+      timePoints: !<float[]>
+        - 0.500000
+        - 1.500000
+        - 1.000000
+      constantDelay: false
+      delay: !<float> 0.000000
+      delayPoints: !<float[]>
+        - 0.500000
+        - 0.300000
+        - 0.000000
+      isLocal: true
+      easingFunction: Linear
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/1614d527-7a78-427a-8e6f-0af5408f3641>
+  PrefabRemaps:
+    []
+  Name: Rotate Example
+  Enabled: false
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2d7a789a-94a5-4d97-be5e-0c4f16c33799
+    - !<own> 588c4303-9f0c-447a-95d0-0d51d72c9ff3
+  Components:
+    []
+- !<SceneObject/18f7b467-3b61-4dc8-b087-4496b84482b5>
+  PrefabRemaps:
+    []
+  Name: Scale Waypoints
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 15.823338, y: -4.715376, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 20805ec0-1e94-4d84-bc62-a6d9cdd8f93b
+    - !<own> b3d261a8-0f9b-4e2d-bf17-d6f5666ffdbd
+    - !<own> 2d4513c1-cbe4-4bdf-a63b-2874dc01823b
+  Components:
+    []
+- !<SceneObject/19642d47-0dda-49ac-9681-a5d91df1dcc7>
+  PrefabRemaps:
+    []
+  Name: Move Waypoints
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1b00227a-bd7b-427b-956b-209a2c4c76a7
+    - !<own> 691f3f14-d076-402a-a53f-5da163ff00e1
+    - !<own> 462541b8-2d92-4404-a783-62f47ee11d31
+  Components:
+    []
+- !<SceneObject/1b00227a-bd7b-427b-956b-209a2c4c76a7>
+  PrefabRemaps:
+    []
+  Name: Waypoint
+  Enabled: true
+  Layers: 131072
+  LocalTransform:
+    position: {x: -15.781233, y: 12.589718, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 47500557-0775-498d-8328-fc02c747eec4
+- !<SceneObject/20805ec0-1e94-4d84-bc62-a6d9cdd8f93b>
+  PrefabRemaps:
+    []
+  Name: Waypoint
+  Enabled: true
+  Layers: 131072
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.500000, y: 0.500000, z: 0.500000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4feff48c-3395-4553-b3a6-8cd5e6ad40e2
+- !<RenderMeshVisual/29476f97-5975-443c-896e-ff095836186b>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 06b51287-0e91-4ea8-96ca-4dbb97713df4
+  Mesh: !<reference> bacddbef-47e1-4fc3-aa0d-774fef09fac5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/29ea323d-2fc5-40b1-b97e-6f27f7682fbd>
+  PrefabRemaps:
+    []
+  Name: TweenWaypoint
+  Enabled: true
+  ScriptAsset: !<reference> 9829fa7a-7faf-4e66-b3aa-3e339fa50376
+  ScriptInputsDefault:
+    sceneObjectReference: true
+    tweenName: true
+    playAutomatically: true
+    type: true
+    constantUpdate: true
+    time: true
+    delay: true
+    isLocal: true
+    easingFunction: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tweenName: ""
+      playAutomatically: true
+      loopType: 1
+      type: 0
+      constantUpdate: true
+      waypoints: !<reference.SceneObject[]>
+        - !<reference> 1b00227a-bd7b-427b-956b-209a2c4c76a7
+        - !<reference> 691f3f14-d076-402a-a53f-5da163ff00e1
+        - !<reference> 462541b8-2d92-4404-a783-62f47ee11d31
+      constantTime: false
+      time: !<float> 1.000000
+      timePoints: !<float[]>
+        - 0.500000
+        - 1.500000
+        - 1.000000
+      constantDelay: false
+      delay: !<float> 0.000000
+      delayPoints: !<float[]>
+        - 0.500000
+        - 0.300000
+        - 0.000000
+      isLocal: true
+      easingFunction: Linear
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/2d4513c1-cbe4-4bdf-a63b-2874dc01823b>
+  PrefabRemaps:
+    []
+  Name: Waypoint 3
+  Enabled: true
+  Layers: 131072
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.800000, y: 0.800000, z: 0.800000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 64605423-3975-4376-b756-fd339908c614
+- !<SceneObject/2d7a789a-94a5-4d97-be5e-0c4f16c33799>
+  PrefabRemaps:
+    []
+  Name: "Rotate [EDIT_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -14.954697, y: -19.128901, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 53da3748-208d-4cbc-b938-78efb34c0a87
+    - !<own> 76e3d24e-99a2-4f5a-bb9a-27645b638255
+- !<ScriptComponent/38953218-40f2-4501-864e-3fded3e09fc4>
+  PrefabRemaps:
+    []
+  Name: Tween
+  Enabled: true
+  ScriptAsset: !<reference> 13e7429c-4e6e-410c-b269-63e8e55abf86
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/462541b8-2d92-4404-a783-62f47ee11d31>
+  PrefabRemaps:
+    []
+  Name: Waypoint 3
+  Enabled: true
+  Layers: 131072
+  LocalTransform:
+    position: {x: 0.000000, y: 38.767845, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> bf72b950-eb48-4282-864f-c7550efd8763
+- !<RenderMeshVisual/47500557-0775-498d-8328-fc02c747eec4>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 06b51287-0e91-4ea8-96ca-4dbb97713df4
+  Mesh: !<reference> bacddbef-47e1-4fc3-aa0d-774fef09fac5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/49d80e94-f661-4bc7-9d8b-d8bd07245cb3>
+  PrefabRemaps:
+    []
+  Name: Waypoint
+  Enabled: true
+  Layers: 131072
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 54.833851, y: 19.715759, z: 6.588905}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8dfdf8c5-f51d-45b0-9c1c-04a93e96020b
+- !<SceneObject/4de5745d-9251-47bd-8424-7d74a50aadb1>
+  PrefabRemaps:
+    []
+  Name: TweenManager
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -3.985016}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 2.000000, y: 2.000000, z: 2.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 38953218-40f2-4501-864e-3fded3e09fc4
+    - !<own> 047ba675-f3a4-4372-94a6-5d9b455783c6
+- !<RenderMeshVisual/4feff48c-3395-4553-b3a6-8cd5e6ad40e2>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 06b51287-0e91-4ea8-96ca-4dbb97713df4
+  Mesh: !<reference> bacddbef-47e1-4fc3-aa0d-774fef09fac5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/52c38a4f-a975-45d0-b7f0-50118226b88c>
+  PrefabRemaps:
+    []
+  Name: "Move [EDIT_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 28.110939, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> eb511bcc-e726-4894-9934-834a8aa4dca0
+    - !<own> 29ea323d-2fc5-40b1-b97e-6f27f7682fbd
+- !<RenderMeshVisual/53da3748-208d-4cbc-b938-78efb34c0a87>
+  PrefabRemaps:
+    []
+  Name: Mesh Visual 1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 930cd31e-d6a4-4d72-8b48-e5734cc63bc3
+  Mesh: !<reference> 61389dda-8257-4cf4-90d0-d66a70e7f2cd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/588c4303-9f0c-447a-95d0-0d51d72c9ff3>
+  PrefabRemaps:
+    []
+  Name: Rotate Waypoints
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: -14.954700, y: -0.337179, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 49d80e94-f661-4bc7-9d8b-d8bd07245cb3
+    - !<own> 085edadf-127d-4454-973d-101931e69181
+    - !<own> cc81817a-1c5a-4e98-b3f4-ce42ab62ee75
+  Components:
+    []
+- !<RenderMeshVisual/64605423-3975-4376-b756-fd339908c614>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 06b51287-0e91-4ea8-96ca-4dbb97713df4
+  Mesh: !<reference> bacddbef-47e1-4fc3-aa0d-774fef09fac5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/691f3f14-d076-402a-a53f-5da163ff00e1>
+  PrefabRemaps:
+    []
+  Name: Waypoint 2
+  Enabled: true
+  Layers: 131072
+  LocalTransform:
+    position: {x: 13.105525, y: 12.207270, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b35f1e95-f751-4214-a21e-954268d9881d
+- !<RenderMeshVisual/6a23e221-fd43-488e-8e13-9e8537299b46>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 06b51287-0e91-4ea8-96ca-4dbb97713df4
+  Mesh: !<reference> bacddbef-47e1-4fc3-aa0d-774fef09fac5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/76e3d24e-99a2-4f5a-bb9a-27645b638255>
+  PrefabRemaps:
+    []
+  Name: TweenWaypoint
+  Enabled: true
+  ScriptAsset: !<reference> 9829fa7a-7faf-4e66-b3aa-3e339fa50376
+  ScriptInputsDefault:
+    sceneObjectReference: true
+    tweenName: true
+    playAutomatically: true
+    constantUpdate: true
+    time: true
+    delay: true
+    isLocal: true
+    easingFunction: true
+    easingType: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sceneObjectReference: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tweenName: ""
+      playAutomatically: true
+      loopType: 1
+      type: 2
+      constantUpdate: true
+      waypoints: !<reference.SceneObject[]>
+        - !<reference> 49d80e94-f661-4bc7-9d8b-d8bd07245cb3
+        - !<reference> 085edadf-127d-4454-973d-101931e69181
+        - !<reference> cc81817a-1c5a-4e98-b3f4-ce42ab62ee75
+      constantTime: false
+      time: !<float> 1.000000
+      timePoints: !<float[]>
+        - 0.500000
+        - 1.500000
+        - 1.000000
+      constantDelay: false
+      delay: !<float> 0.000000
+      delayPoints: !<float[]>
+        - 0.500000
+        - 0.300000
+        - 0.000000
+      isLocal: true
+      easingFunction: Linear
+      easingType: Out
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/83620af4-a236-4d31-90a8-5b820169b5eb>
+  PrefabRemaps:
+    []
+  Name: Mesh Visual 1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 930cd31e-d6a4-4d72-8b48-e5734cc63bc3
+  Mesh: !<reference> 61389dda-8257-4cf4-90d0-d66a70e7f2cd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/8dfdf8c5-f51d-45b0-9c1c-04a93e96020b>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 06b51287-0e91-4ea8-96ca-4dbb97713df4
+  Mesh: !<reference> bacddbef-47e1-4fc3-aa0d-774fef09fac5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/b35f1e95-f751-4214-a21e-954268d9881d>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 06b51287-0e91-4ea8-96ca-4dbb97713df4
+  Mesh: !<reference> bacddbef-47e1-4fc3-aa0d-774fef09fac5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b3d261a8-0f9b-4e2d-bf17-d6f5666ffdbd>
+  PrefabRemaps:
+    []
+  Name: Waypoint 2
+  Enabled: true
+  Layers: 131072
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.300000, y: 1.300000, z: 1.300000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 29476f97-5975-443c-896e-ff095836186b
+- !<SceneObject/ba1df42d-6450-4760-9483-998d7246fb44>
+  PrefabRemaps:
+    []
+  Name: "Scale [EDIT_ME]"
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 15.823300, y: -19.128901, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 83620af4-a236-4d31-90a8-5b820169b5eb
+    - !<own> 0a3aa0ab-25fe-4f7b-a50a-cba0890577dc
+- !<RenderMeshVisual/bf72b950-eb48-4282-864f-c7550efd8763>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 06b51287-0e91-4ea8-96ca-4dbb97713df4
+  Mesh: !<reference> bacddbef-47e1-4fc3-aa0d-774fef09fac5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c665ea25-53b6-469a-a2aa-8f7e947c8d64>
+  PrefabRemaps:
+    []
+  Name: Move Example
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 52c38a4f-a975-45d0-b7f0-50118226b88c
+    - !<own> 19642d47-0dda-49ac-9681-a5d91df1dcc7
+  Components:
+    []
+- !<SceneObject/cc81817a-1c5a-4e98-b3f4-ce42ab62ee75>
+  PrefabRemaps:
+    []
+  Name: Waypoint 3
+  Enabled: true
+  Layers: 131072
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 113.944305, y: 3.153054, z: 51.228832}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6a23e221-fd43-488e-8e13-9e8537299b46
+- !<SceneObject/cff712ba-208d-44a9-890e-ef79d11cc355>
+  PrefabRemaps:
+    []
+  Name: WaypointTweenExamples__PLACE_IN_OBJECTS_PANEL
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 1.992508}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 0.500000, y: 0.500000, z: 0.500000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4de5745d-9251-47bd-8424-7d74a50aadb1
+    - !<own> c665ea25-53b6-469a-a2aa-8f7e947c8d64
+    - !<own> 1614d527-7a78-427a-8e6f-0af5408f3641
+    - !<own> f251ffa2-be8e-4cbd-9ae2-e2c92dc4f75d
+  Components:
+    []
+- !<RenderMeshVisual/eb511bcc-e726-4894-9934-834a8aa4dca0>
+  PrefabRemaps:
+    []
+  Name: Mesh Visual 1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 930cd31e-d6a4-4d72-8b48-e5734cc63bc3
+  Mesh: !<reference> 61389dda-8257-4cf4-90d0-d66a70e7f2cd
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/ece17982-15fb-43e5-b716-32492822f3d7>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 06b51287-0e91-4ea8-96ca-4dbb97713df4
+  Mesh: !<reference> bacddbef-47e1-4fc3-aa0d-774fef09fac5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f251ffa2-be8e-4cbd-9ae2-e2c92dc4f75d>
+  PrefabRemaps:
+    []
+  Name: Scale Example
+  Enabled: false
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ba1df42d-6450-4760-9483-998d7246fb44
+    - !<own> 18f7b467-3b61-4dc8-b087-4496b84482b5
+  Components:
+    []

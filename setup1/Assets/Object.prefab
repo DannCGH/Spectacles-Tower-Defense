@@ -1,0 +1,77 @@
+- !<ObjectPrefab/451179cb-f04c-4b42-8046-2e5c82430138>
+  PackagePath: ""
+  objects:
+    - !<own> 63229166-84da-47ce-9daf-6d8dab1ea47c
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/038370aa-5af0-465e-80b1-0dc9638034ac>
+  PrefabRemaps:
+    []
+  Name: Object Tracker
+  Enabled: false
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3ecd5365-2b7a-4514-a2eb-1c1595b3b6cc
+- !<ScriptComponent/3ecd5365-2b7a-4514-a2eb-1c1595b3b6cc>
+  PrefabRemaps:
+    []
+  Name: Object Tracker
+  Enabled: true
+  ScriptAsset: !<reference> 25f1f860-b92a-4a36-a822-cd01900525dd
+  ScriptInputsDefault:
+    objectTracking: true
+    objectToAttach: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      objectTracking: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      objectToAttach: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/63229166-84da-47ce-9daf-6d8dab1ea47c>
+  PrefabRemaps:
+    []
+  Name: Object
+  Enabled: false
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 038370aa-5af0-465e-80b1-0dc9638034ac
+  Components:
+    - !<own> 94c174a3-09ef-4281-a37d-c24b63a0a94a
+- !<ScriptComponent/94c174a3-09ef-4281-a37d-c24b63a0a94a>
+  PrefabRemaps:
+    []
+  Name: AttachToObjectTracking
+  Enabled: true
+  ScriptAsset: !<reference> d5f583aa-ace1-4210-8f7b-c74dfebd30ad
+  ScriptInputsDefault:
+    objectTracking: true
+    objectToAttach: true
+    baseDepthFactor: true
+    applyRotation: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      perspectiveCamera: !<reference.Camera> 00000000-0000-0065-0000-000000000065
+      objectTracking: !<reference.ObjectTracking> 00000000-0000-0000-0000-000000000000
+      objectToAttach: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      baseDepthFactor: !<float> 250.000000
+      applyRotation: true
+  ScriptTypes:
+    "":
+      {}

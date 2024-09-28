@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/7b2381a0-c586-46be-85e0-049e162b0f67>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 44899f6a-b08b-470a-a076-0adc41faeb98
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 44899f6a-b08b-470a-a076-0adc41faeb98
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 9cae4a19-5104-4633-bf91-41e03dc5d777
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/9355a040-8c36-407d-a2af-7da261005b80>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/9cae4a19-5104-4633-bf91-41e03dc5d777>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    mapDistance: false
+    mappedMax: false
+    mappedMin: false
+    maxDistance: false
+    minDistance: false
+    multiplier: false
+    multiplyPositions: false
+    objectA: false
+    objectB: false
+    printDistance: false
+    printMapDist: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - objectA: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      objectB: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      printDistance: false
+      multiplyPositions: false
+      multiplier: !<Vec3> {x: 1.000000, y: 1.000000, z: 1.000000}
+      mapDistance: false
+      minDistance: !<float> 0.000000
+      maxDistance: !<float> 0.000000
+      mappedMin: !<float> 0.000000
+      mappedMax: !<float> 1.000000
+      printMapDist: false
+  ScriptTypes:
+    -
+      {}
