@@ -1,0 +1,28 @@
+- !<Material/930cd31e-d6a4-4d72-8b48-e5734cc63bc3>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> e291ed0d-1e59-4c3d-967e-155aef1d11c4
+- !<PassInfo/e291ed0d-1e59-4c3d-967e-155aef1d11c4>
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_DIFFUSE_LIGHTING
+    - ENABLE_ENVMAP_FROM_CAMERA_ROUGHNESS
+    - ENABLE_LIGHTING
+    - ENABLE_SPECULAR_AO
+    - ENABLE_SPECULAR_LIGHTING
+    - materialParamsTexUV 0
+  BlendMode: Disabled
+  Properties:
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+  Pass: !<reference> 166c338c-6d7b-48b5-b7ce-d87ecfd1db36
