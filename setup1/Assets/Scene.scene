@@ -7,6 +7,8 @@
     - !<own> b8cef6db-17b8-4dae-a504-22267af54a5c
     - !<own> 85ba9263-ee61-417c-a503-253adb9aebe2
     - !<own> e416ce8c-d542-4bcb-b0b7-3477208f7561
+    - !<own> 5ce0f58b-692c-4aa3-b2bf-28ba2175caa8
+    - !<own> 50c7147d-226a-4a94-93c4-3fd768666aa9
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       []
@@ -2342,6 +2344,26 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<ScriptComponent/3b9458a8-d577-468f-b6a1-b8145707f477>
+  PrefabRemaps:
+    []
+  Name: Generative 3D Component 1
+  Enabled: true
+  ScriptAsset: !<reference> 467d6d29-8a2f-4368-98f9-75e5191d6eaf
+  ScriptInputsDefault:
+    renderOrder: true
+    useShadow: true
+    shadowDensity: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      renderOrder: 0
+      useShadow: true
+      shadowDensity: !<float> 1.000000
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/3d1053b6-58f6-4f01-bf21-3a9fe73d338c>
   PrefabRemaps:
     []
@@ -3160,6 +3182,21 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/50c7147d-226a-4a94-93c4-3fd768666aa9>
+  PrefabRemaps:
+    []
+  Name: Generative 3D Component 1
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 3b9458a8-d577-468f-b6a1-b8145707f477
 - !<ScriptComponent/518a56fe-84cc-457a-ac44-665f19946cf7>
   PrefabRemaps:
     []
@@ -4113,6 +4150,21 @@
   ScriptTypes:
     "":
       {}
+- !<SceneObject/5ce0f58b-692c-4aa3-b2bf-28ba2175caa8>
+  PrefabRemaps:
+    []
+  Name: Generative 3D Component
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 810fafb5-5b71-4f0a-89c8-a4f70e513989
 - !<SceneObject/5d44fa57-b511-402f-aaed-b91e7405671c>
   PrefabRemaps:
     []
@@ -5160,6 +5212,26 @@
   BodySettingValue: 1.000000
   Damping: 0.000000
   AngularDamping: 0.000000
+- !<ScriptComponent/810fafb5-5b71-4f0a-89c8-a4f70e513989>
+  PrefabRemaps:
+    []
+  Name: Generative 3D Component
+  Enabled: true
+  ScriptAsset: !<reference> 1d717c96-c050-42cb-8061-1c88be2ab935
+  ScriptInputsDefault:
+    renderOrder: true
+    useShadow: true
+    shadowDensity: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      renderOrder: 0
+      useShadow: true
+      shadowDensity: !<float> 1.000000
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/82d6634f-fe20-48fa-a4e2-3b27bb4c1fd5>
   PrefabRemaps:
     []
@@ -7994,9 +8066,10 @@
     []
   Name: Physics Collider
   Enabled: true
-  Shape: !<Box/00000000-0000-0000-0000-000000000000>
-    FitVisual: true
-    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Shape: !<Cylinder/00000000-0000-0000-0000-000000000000>
+    Axis: Y
+    Length: 18.000000
+    Radius: 6.000000
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
   Filter: !<reference> 00000000-0000-0000-0000-000000000000
   OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
