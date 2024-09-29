@@ -26,6 +26,7 @@
   ScriptInputsHidden:
     childObject: false
     detectionDistance: false
+    inputScript: false
     parentObject: false
   ScriptTypesHidden:
     {}
@@ -33,6 +34,7 @@
     - parentObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       childObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       detectionDistance: !<float> 2.000000
+      inputScript: !<reference.ScriptAsset> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

@@ -6124,6 +6124,22 @@
     bottom: -1.000000
     right: 1.000000
     top: 1.000000
+- !<ScriptComponent/90155057-1646-48b5-ae5d-5fd52335db09>
+  PrefabRemaps:
+    []
+  Name: BaseEnemyDestroy
+  Enabled: true
+  ScriptAsset: !<reference> 07887e26-8871-4fb1-80c5-179d9beaa732
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetObject: !<reference.SceneObject> 109a4bb9-85ab-4334-b00b-76724dfcf0bd
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/9080eeb2-2aa5-4203-ae4c-bf3154e39827>
   PrefabRemaps:
     []
@@ -7353,11 +7369,12 @@
     scale: {x: 10.000000, y: 10.000000, z: 10.000000}
     hasSegmentScaleCompensation: false
   Children:
-    []
+    - !<own> eeda1ff3-9335-4aa5-a0bc-931edce752c4
   Components:
     - !<own> 4ca83ceb-70fe-4b1a-b1c7-0105cf55dbad
     - !<own> dbc3fd41-d4b3-4428-8d6d-e7ed04fa68c0
     - !<own> 25f7a1e2-346e-444d-94ad-b02ab5c39216
+    - !<own> f8a5916c-5811-4952-ab21-9cea27f2ecdf
 - !<ScriptComponent/b8d3ab67-0656-4a46-a1a0-f4afeed70284>
   PrefabRemaps:
     []
@@ -8244,7 +8261,7 @@
   PrefabRemaps:
     []
   Name: LerpPosition
-  Enabled: true
+  Enabled: false
   ScriptAsset: !<reference> ec65bcca-9b63-4a22-a990-18396106d23b
   ScriptInputsDefault:
     lerpSpeed: true
@@ -8671,7 +8688,7 @@
   Enabled: true
   ScriptAsset: !<reference> f3fa2b12-0a1f-4f31-8096-e8192faf441a
   ScriptInputsDefault:
-    {}
+    inputScript: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
@@ -8679,6 +8696,7 @@
       parentObject: !<reference.SceneObject> e416ce8c-d542-4bcb-b0b7-3477208f7561
       childObject: !<reference.SceneObject> 109a4bb9-85ab-4334-b00b-76724dfcf0bd
       detectionDistance: !<float> 12.000000
+      inputScript: !<reference.ScriptAsset> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     "":
       {}
@@ -8985,7 +9003,7 @@
   PrefabRemaps:
     []
   Name: Tower
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: -15.786092, y: 0.000000, z: -12.302290}
@@ -9667,6 +9685,21 @@
   BlendNormals: false
   BlendShapes:
     {}
+- !<SceneObject/eeda1ff3-9335-4aa5-a0bc-931edce752c4>
+  PrefabRemaps:
+    []
+  Name: BaseEnemyDestroy
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 90155057-1646-48b5-ae5d-5fd52335db09
 - !<SceneObject/efa5291d-c6f8-4527-85f3-4ca4fd596089>
   PrefabRemaps:
     []
@@ -10033,6 +10066,25 @@
     - !<own> e97e8886-3b2c-4cdc-b286-2580674e8b20
   Components:
     []
+- !<ScriptComponent/f8a5916c-5811-4952-ab21-9cea27f2ecdf>
+  PrefabRemaps:
+    []
+  Name: DistanceDetection
+  Enabled: true
+  ScriptAsset: !<reference> f3fa2b12-0a1f-4f31-8096-e8192faf441a
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      parentObject: !<reference.SceneObject> b8cef6db-17b8-4dae-a504-22267af54a5c
+      childObject: !<reference.SceneObject> 00fcb5fa-5175-4b25-a17f-7bbaf4beff92
+      detectionDistance: !<float> 6.000000
+      inputScript: !<reference.ScriptAsset> 07887e26-8871-4fb1-80c5-179d9beaa732
+  ScriptTypes:
+    "":
+      {}
 - !<ScriptComponent/f8afa541-29d7-4683-bc28-c751ad3056e0>
   PrefabRemaps:
     []
