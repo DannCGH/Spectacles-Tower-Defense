@@ -1747,8 +1747,8 @@
       objectsToSpawn: !<reference.SceneObject[]>
         - !<reference> c27e149d-2c5e-408a-82a0-c69323d8dd99
         - !<reference> 34ce1fa7-74b8-471e-b8f2-819a29d1f31e
-        - !<reference> c27e149d-2c5e-408a-82a0-c69323d8dd99
-        - !<reference> c27e149d-2c5e-408a-82a0-c69323d8dd99
+        - !<reference> 9cfb0fba-9fd5-4947-b442-fecb2b72d676
+        - !<reference> e8a27aee-ff15-49b4-9229-797b1d861dd1
       filterEnabled: false
   ScriptTypes:
     "":
@@ -5764,7 +5764,7 @@
   PrefabRemaps:
     []
   Name: PinchButtonCapsuleExample
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: -20.000000}
@@ -7565,7 +7565,7 @@
   PrefabRemaps:
     []
   Name: Base
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: -20.000000, z: -30.000000}
