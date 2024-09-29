@@ -8715,10 +8715,9 @@
     []
   Name: Physics Collider
   Enabled: true
-  Shape: !<Cylinder/00000000-0000-0000-0000-000000000000>
-    Axis: Y
-    Length: 18.000000
-    Radius: 6.000000
+  Shape: !<Sphere/00000000-0000-0000-0000-000000000000>
+    FitVisual: false
+    Radius: 1.000000
   Matter: !<reference> 00000000-0000-0000-0000-000000000000
   Filter: !<reference> 00000000-0000-0000-0000-000000000000
   OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
@@ -8728,7 +8727,7 @@
   RotationTension: 30.000000
   ForceCompound: false
   Intangible: false
-  ShowCollider: false
+  ShowCollider: true
 - !<ScriptComponent/dbc4a8cc-c648-4eca-a084-cf46f6b45353>
   PrefabRemaps:
     []
