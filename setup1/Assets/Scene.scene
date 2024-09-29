@@ -529,7 +529,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: 28.100899, z: -86.496124}
+    position: {x: 0.000000, y: 25.000000, z: -86.496124}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -1705,7 +1705,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: -0.000002, y: -33.044640, z: -143.844452}
+    position: {x: -0.000002, y: -100.000000, z: -140.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 0.500000, y: 0.500000, z: 0.500000}
     hasSegmentScaleCompensation: false
@@ -2380,7 +2380,7 @@
   PrefabRemaps:
     []
   Name: Behavior
-  Enabled: false
+  Enabled: true
   ScriptAsset: !<reference> 7e45a49f-a94a-449b-bd55-e2f549952e98
   ScriptInputsDefault:
     touchEventEventType: true
@@ -2428,11 +2428,10 @@
     onCustomTriggerTriggerNames: true
     onCustomTriggerUseList: true
     physicsColliderEventCollisionType: true
+    physicsColliderEventEventType: true
     physicsColliderEventOverlapStatic: true
     physicsColliderEventOverlapDynamic: true
     physicsColliderEventOverlapIntangible: true
-    physicsColliderEventFilterObjectsBy: true
-    physicsColliderEventAllowedObjects: true
     physicsColliderEventNameMatchType: true
     physicsColliderEventAllowedNames: true
     physicsRaycastRaycastSource: true
@@ -2731,13 +2730,13 @@
       onCustomTriggerUseList: false
       physicsColliderEventCollider: !<reference.ColliderComponent> 4e86a588-7791-44d6-a7a0-0b924e53e171
       physicsColliderEventCollisionType: Collision
-      physicsColliderEventEventType: On Stay
+      physicsColliderEventEventType: On Enter
       physicsColliderEventOverlapStatic: true
       physicsColliderEventOverlapDynamic: true
       physicsColliderEventOverlapIntangible: true
-      physicsColliderEventFilterObjectsBy: None
+      physicsColliderEventFilterObjectsBy: Other object
       physicsColliderEventAllowedObjects: !<reference.ColliderComponent[]>
-        []
+        - !<reference> 0cd83d28-b2cc-44a1-a2a6-23cd65a725f5
       physicsColliderEventNameMatchType: Equals
       physicsColliderEventAllowedNames: !<string[]>
         []
@@ -6778,7 +6777,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: -33.044640, z: -143.844452}
+    position: {x: 0.000000, y: -15.000000, z: -143.844452}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 0.500000, y: 0.500000, z: 0.500000}
     hasSegmentScaleCompensation: false
@@ -9176,7 +9175,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: -1.032446, y: 26.435717, z: 15.838142}
+    position: {x: -1.032446, y: 60.435699, z: 15.838142}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 12.000000, y: 12.000000, z: 12.000000}
     hasSegmentScaleCompensation: false
