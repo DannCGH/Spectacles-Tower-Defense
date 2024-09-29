@@ -10,7 +10,11 @@ viewConfig:
     device: Spectacles (2024)
     cameraFov: nan
     fullFrameAspect: 0.666660
+<<<<<<< Updated upstream
     viewport: Normal
+=======
+    viewport: Maximized
+>>>>>>> Stashed changes
     output: Live
     stereoOutputEye: Center
     deviceTypeOverride: Unknown
