@@ -2556,7 +2556,7 @@
   PrefabRemaps:
     []
   Name: Sphere 2
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 10.000000, y: 0.000000, z: 0.000000}
@@ -7746,7 +7746,7 @@
   PrefabRemaps:
     []
   Name: BulletSpawnPoint
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 1.000000, z: 0.000000}
@@ -8193,7 +8193,7 @@
   PrefabRemaps:
     []
   Name: Spawner
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -10249,7 +10249,7 @@
   PrefabRemaps:
     []
   Name: "Example Objects [DELETE_ME]"
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -10265,7 +10265,7 @@
   PrefabRemaps:
     []
   Name: Sphere
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: -10.000000, y: 0.000000, z: 0.000000}
