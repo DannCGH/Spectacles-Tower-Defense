@@ -1,0 +1,36 @@
+- !<AssetImportMetadata/b48951c2-e6cc-4e0b-89e1-139fa58d4ee0>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> ab0293d6-2486-4448-819b-b387f31f2eae
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> ab0293d6-2486-4448-819b-b387f31f2eae
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 232a7c45-ff52-4928-a1e0-d38197f59d59
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/7274fc16-2e10-421f-8f83-faee8d1a5a11>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/232a7c45-ff52-4928-a1e0-d38197f59d59>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    childObject: false
+    pinchButtonScript: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - pinchButtonScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      childObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

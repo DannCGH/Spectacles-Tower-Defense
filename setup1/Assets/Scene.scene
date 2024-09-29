@@ -12,7 +12,6 @@
     - !<own> 915ace14-eb5a-4a43-b09c-56cdb01c9f48
     - !<own> 0eceb7a6-fec0-4143-923c-2efa1bdbf0a0
     - !<own> 9e5fd5e4-12be-4721-b89e-1bf6546d81f2
-    - !<own> 2225d198-093f-4828-961b-d2a2a150a632
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       - |
@@ -1631,9 +1630,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: -33.044640, z: -143.844452}
+    position: {x: 0.000000, y: -26.435713, z: -99.075562}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 0.500000, y: 0.500000, z: 0.500000}
+    scale: {x: 0.400000, y: 0.400000, z: 0.400000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 4aa74397-4c0c-4aed-b534-06c7ad6b16f0
@@ -5641,6 +5640,7 @@
     hasSegmentScaleCompensation: false
   Children:
     - !<own> e91ef342-21b4-4fd0-92d2-9e81a45a8924
+    - !<own> 2225d198-093f-4828-961b-d2a2a150a632
   Components:
     - !<own> f2700b8b-e194-42d1-aff6-9adbdfea1dde
     - !<own> 1dd98ee7-4f98-4432-9823-a089c7fc4af9
@@ -5652,6 +5652,7 @@
     - !<own> eda73bd5-f116-4668-84f6-73b0638b6991
     - !<own> cba5029c-fe0d-497a-9f7a-48a4348afa8a
     - !<own> 7343fc62-aa35-4b31-8a96-14fcc38059c8
+    - !<own> f0e9cd9e-84c8-45e1-a50a-81ae92a7903c
 - !<ScriptComponent/85da282b-556a-412b-8f12-34ae0a49e466>
   PrefabRemaps:
     []
@@ -9769,6 +9770,23 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<ScriptComponent/f0e9cd9e-84c8-45e1-a50a-81ae92a7903c>
+  PrefabRemaps:
+    []
+  Name: Pinch Button Game Starter
+  Enabled: false
+  ScriptAsset: !<reference> ab0293d6-2486-4448-819b-b387f31f2eae
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      pinchButtonScript: !<reference.ScriptComponent> 58790625-e8c1-4bfd-8b21-237d403a8410
+      childObject: !<reference.SceneObject> 2225d198-093f-4828-961b-d2a2a150a632
+  ScriptTypes:
+    "":
+      {}
 - !<Canvas/f2700b8b-e194-42d1-aff6-9adbdfea1dde>
   PrefabRemaps:
     []
