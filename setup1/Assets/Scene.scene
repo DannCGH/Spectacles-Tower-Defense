@@ -644,7 +644,7 @@
   PrefabRemaps:
     []
   Name: Behavior
-  Enabled: true
+  Enabled: false
   ScriptAsset: !<reference> 7e45a49f-a94a-449b-bd55-e2f549952e98
   ScriptInputsDefault:
     touchEventEventType: true
@@ -1037,7 +1037,7 @@
       triggerLimitType: Always
       triggerInterval: !<float> 1.000000
       triggerDelay: !<float> 0.000000
-      responseType: runTween
+      responseType: destroyObject
       animateImageAnimatedTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
       animateImageVisualObject: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
       animateImageAction: Play or Resume
@@ -2224,7 +2224,7 @@
     - bbfcee33-3e7a-407e-a087-ee62b6af8fb3: 8877a2b6-fbc6-4e64-ac40-1569bd2ac5c1
     - ee58319b-36e8-4ab3-b4cf-296b685f7a48: bb6503a3-22bd-4a30-b923-7b77ce00a184
   Name: Base Query Hit
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -2427,9 +2427,7 @@
     onCustomTriggerTriggerName: true
     onCustomTriggerTriggerNames: true
     onCustomTriggerUseList: true
-    physicsColliderEventCollider: true
     physicsColliderEventCollisionType: true
-    physicsColliderEventEventType: true
     physicsColliderEventOverlapStatic: true
     physicsColliderEventOverlapDynamic: true
     physicsColliderEventOverlapIntangible: true
@@ -2458,7 +2456,6 @@
     physicsRaycastAllowedNames: true
     triggerLimitType: true
     triggerInterval: true
-    triggerDelay: true
     animateImageAnimatedTexture: true
     animateImageVisualObject: true
     animateImageAction: true
@@ -2559,7 +2556,6 @@
     runMLRecurring: true
     runMLStartTiming: true
     runMLEndTiming: true
-    destroyObjectObject: true
     printMessageText: true
     callScriptAPITargetType: true
     callScriptAPISceneObject: true
@@ -2683,7 +2679,7 @@
     {}
   ScriptInputs:
     "":
-      triggeringEventType: distanceCheck
+      triggeringEventType: physicsColliderEvent
       touchEventEventType: TapEvent
       touchEventTouchTarget: !<reference.BaseMeshVisual> 00000000-0000-0000-0000-000000000000
       faceEventEventType: MouthOpenedEvent
@@ -2733,9 +2729,9 @@
       onCustomTriggerTriggerNames: !<string[]>
         []
       onCustomTriggerUseList: false
-      physicsColliderEventCollider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
+      physicsColliderEventCollider: !<reference.ColliderComponent> 4e86a588-7791-44d6-a7a0-0b924e53e171
       physicsColliderEventCollisionType: Collision
-      physicsColliderEventEventType: On Enter
+      physicsColliderEventEventType: On Stay
       physicsColliderEventOverlapStatic: true
       physicsColliderEventOverlapDynamic: true
       physicsColliderEventOverlapIntangible: true
@@ -2768,8 +2764,8 @@
         []
       triggerLimitType: Always
       triggerInterval: !<float> 1.000000
-      triggerDelay: !<float> 0.000000
-      responseType: instantiatePrefab
+      triggerDelay: !<float> 2.000000
+      responseType: destroyObject
       animateImageAnimatedTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
       animateImageVisualObject: !<reference.MaterialMeshVisual> 00000000-0000-0000-0000-000000000000
       animateImageAction: Play or Resume
@@ -2872,7 +2868,7 @@
       runMLEndTiming: 4
       instantiatePrefabPrefab: !<reference.ObjectPrefab> 2572f442-7687-4c3a-bc89-5d4089a13c91
       instantiatePrefabParent: !<reference.SceneObject> bc7863e9-1800-4d18-8487-7b8349c8d278
-      destroyObjectObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      destroyObjectObject: !<reference.SceneObject> 109a4bb9-85ab-4334-b00b-76724dfcf0bd
       printMessageText: ""
       callScriptAPITargetType: Component
       callScriptAPISceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
@@ -8699,6 +8695,7 @@
       physicsColliderEventAllowedObjects: !<reference.ColliderComponent[]>
         - !<reference> dbc3fd41-d4b3-4428-8d6d-e7ed04fa68c0
         - !<reference> 36d1f49a-c123-4a18-8dd1-7921aad2a459
+        - !<reference> 4e86a588-7791-44d6-a7a0-0b924e53e171
       physicsColliderEventNameMatchType: Equals
       physicsColliderEventAllowedNames: !<string[]>
         []
