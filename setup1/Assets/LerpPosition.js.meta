@@ -24,12 +24,22 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
-    {}
+    bulletSpawnPoint: false
+    enemy: false
+    lerpSpeed: false
+    spawnPoint: false
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
-    -
-      {}
+    - bulletPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      movePrefab: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lerpSpeed: 0.100000
+      towerPosition: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      bulletSpawnPoint: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      parentObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      childObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      spawnPoint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      enemy: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

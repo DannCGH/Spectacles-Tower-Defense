@@ -1609,7 +1609,7 @@
     - fe69d5fb-8d4f-4697-ab81-2faea6604987: 4feff48c-3395-4553-b3a6-8cd5e6ad40e2
     - ff436664-dc0e-4aca-bb84-165c4b46ff6d: 1614d527-7a78-427a-8e6f-0af5408f3641
   Name: WaypointTweenExamples__PLACE_IN_OBJECTS_PANEL
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 1.992508}
@@ -2504,6 +2504,26 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
+- !<ScriptComponent/3bedf7fe-5df6-4e92-bc19-de65ba58f9f6>
+  PrefabRemaps:
+    []
+  Name: Interactable
+  Enabled: true
+  ScriptAsset: !<reference> 652e631a-22d0-4941-9f74-2943df59f34c
+  ScriptInputsDefault:
+    targetingMode: true
+    enableInstantDrag: true
+    allowMultipleInteractors: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetingMode: !<float> 3.000000
+      enableInstantDrag: false
+      allowMultipleInteractors: true
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/3d1053b6-58f6-4f01-bf21-3a9fe73d338c>
   PrefabRemaps:
     []
@@ -4209,7 +4229,7 @@
     - ffab42e8-a2aa-4874-b96e-e685694d4ab7: e8c009db-90f8-4555-8449-0ee1a350eb75
     - ffe425e3-557d-4e1d-824c-e5f378f4a39e: e3ec5982-f5aa-45f3-baae-b2c56d5e0bcd
   Name: SpectaclesInteractionKit
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: -17.788183, y: 0.000000, z: -19.869610}
@@ -5127,6 +5147,22 @@
   Name: ScreenTransformAdapter
   Enabled: true
   ScriptAsset: !<reference> a10ae9cc-b063-47e4-b6d6-c02993b08a81
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      {}
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/78f3876b-93c1-4a22-82ff-c7470b981c86>
+  PrefabRemaps:
+    []
+  Name: Tween
+  Enabled: true
+  ScriptAsset: !<reference> f0075ed3-7ac2-4d68-a100-66b646dc3dbb
   ScriptInputsDefault:
     {}
   ScriptTypesDefault:
@@ -6145,6 +6181,62 @@
     bottom: -1.000000
     right: 1.000000
     top: 1.000000
+- !<ScriptComponent/904397cf-8c7e-43c6-ad8a-be762ff23b06>
+  PrefabRemaps:
+    []
+  Name: InteractableManipulation
+  Enabled: true
+  ScriptAsset: !<reference> 664b556b-1946-4c2c-866a-e675b4e86006
+  ScriptInputsDefault:
+    manipulateRootSceneObject: true
+    minimumScaleFactor: true
+    maximumScaleFactor: true
+    enableTranslation: true
+    enableRotation: true
+    enableScale: true
+    enableStretchZ: true
+    showStretchZProperties: true
+    zStretchFactorMin: true
+    zStretchFactorMax: true
+    useFilter: true
+    showFilterProperties: true
+    minCutoff: true
+    beta: true
+    dcutoff: true
+    showTranslationProperties: true
+    _enableXTranslation: true
+    _enableYTranslation: true
+    _enableZTranslation: true
+    showRotationProperties: true
+    _rotationAxis: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      manipulateRootSceneObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      minimumScaleFactor: 0.250000
+      maximumScaleFactor: !<float> 20.000000
+      enableTranslation: true
+      enableRotation: true
+      enableScale: true
+      enableStretchZ: true
+      showStretchZProperties: false
+      zStretchFactorMin: !<float> 1.000000
+      zStretchFactorMax: !<float> 12.000000
+      useFilter: true
+      showFilterProperties: false
+      minCutoff: !<float> 2.000000
+      beta: 0.015000
+      dcutoff: !<float> 1.000000
+      showTranslationProperties: false
+      _enableXTranslation: true
+      _enableYTranslation: true
+      _enableZTranslation: true
+      showRotationProperties: false
+      _rotationAxis: All
+  ScriptTypes:
+    "":
+      {}
 - !<SceneObject/9080eeb2-2aa5-4203-ae4c-bf3154e39827>
   PrefabRemaps:
     []
@@ -8243,16 +8335,20 @@
 - !<ScriptComponent/ce545be3-6377-4967-a2e0-1df41ea3c47a>
   PrefabRemaps:
     []
-  Name: Untitled JavaScript
+  Name: LerpPosition
   Enabled: true
   ScriptAsset: !<reference> ec65bcca-9b63-4a22-a990-18396106d23b
   ScriptInputsDefault:
-    {}
+    lerpSpeed: true
+    bulletSpawnPoint: true
   ScriptTypesDefault:
     {}
   ScriptInputs:
     "":
-      {}
+      spawnPoint: !<reference.SceneObject> bc7863e9-1800-4d18-8487-7b8349c8d278
+      enemy: !<reference.SceneObject> e10d1d1c-ead6-4592-8115-e238a3800f97
+      lerpSpeed: 0.100000
+      bulletSpawnPoint: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
   ScriptTypes:
     "":
       {}
@@ -8654,6 +8750,7 @@
     "":
       parentObject: !<reference.SceneObject> e416ce8c-d542-4bcb-b0b7-3477208f7561
       childObject: !<reference.SceneObject> e10d1d1c-ead6-4592-8115-e238a3800f97
+      detectionDistance: !<float> 12.000000
   ScriptTypes:
     "":
       {}
@@ -8810,18 +8907,20 @@
     - a1d26e17-852f-4f44-8393-1613d19e9d81: f6ef83ed-c0fb-42ba-8a8a-65805401f69f
     - e10d1d1c-ead6-4592-8115-e238a3800f97: 44fac6a3-5e05-47cb-a3a9-d47eb9c5ce76
   Name: Move
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 28.110939, z: 0.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    scale: {x: 0.500000, y: 0.500000, z: 0.500000}
     hasSegmentScaleCompensation: false
   Children:
     []
   Components:
     - !<own> a1d26e17-852f-4f44-8393-1613d19e9d81
     - !<own> 6efd5907-dca5-4ef3-b963-23127ee1873a
+    - !<own> 3bedf7fe-5df6-4e92-bc19-de65ba58f9f6
+    - !<own> 904397cf-8c7e-43c6-ad8a-be762ff23b06
 - !<Skin/e1f50b15-59cf-4834-8a38-2b8743104378>
   PrefabRemaps:
     []
@@ -10089,6 +10188,7 @@
   Components:
     - !<own> 2f820100-c134-4127-b4e8-2e5962f7930d
     - !<own> ce545be3-6377-4967-a2e0-1df41ea3c47a
+    - !<own> 78f3876b-93c1-4a22-82ff-c7470b981c86
 - !<RenderMeshVisual/f9a3673f-a154-4d2b-af03-6bb93bf348f5>
   PrefabRemaps:
     []

@@ -25,12 +25,14 @@
   MaxVisibility: Editable
   ScriptInputsHidden:
     childObject: false
+    detectionDistance: false
     parentObject: false
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
     - parentObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       childObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      detectionDistance: !<float> 2.000000
   ScriptTypes:
     -
       {}

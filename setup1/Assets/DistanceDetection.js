@@ -1,5 +1,6 @@
 // @input SceneObject parentObject
 // @input SceneObject childObject
+// @input float detectionDistance = 2
 function checkDistance() {
     var objectPosition = script.parentObject.getTransform().getWorldPosition();
     var targetPosition = script.childObject.getTransform().getWorldPosition();
